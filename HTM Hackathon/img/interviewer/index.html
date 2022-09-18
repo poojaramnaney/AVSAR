@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AVSAR</title>
-    <link rel="stylesheet" type="text/css" href="../interviewer/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play">
+    <link rel="stylesheet" href="{{ url_for('static', filename='.../interviewer/style.css') }}">
      <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
@@ -35,7 +35,7 @@
         <div class="header">
            <div class="imgText">
               <div class="userimg">
-                  <img src="user.png" class="cover">
+                  <img src="{{url_for('static',filename='user.png')}}", class="cover">
               </div>
               <h4 class="frontend">AVSAR</h4>
            </div>
