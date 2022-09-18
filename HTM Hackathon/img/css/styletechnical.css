@@ -1,0 +1,33 @@
+.bgimg{
+    background-image: url('../techbg.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+}
+.techh{
+    padding: 70px;
+}
+.ourservices{
+    color: aliceblue;
+}
+
+.tech{
+    color: aliceblue;
+}
+.uni{
+    color: aliceblue;
+}
+
+    
+.tech1{
+    color: aliceblue;
+
+    font-size: 20px;
+}
+.uni1{
+    color: aliceblue;
+
+    font-size: 20px;
+  
+}
