@@ -21,5 +21,5 @@ def index():
 
 
     else:
-        return render_template("htm/index.html")
+        return render_template("index.html")
     main_function()
