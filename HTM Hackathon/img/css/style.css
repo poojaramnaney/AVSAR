@@ -1,103 +1,103 @@
-.bgimg{
-    background-image: url('../body3.jfif');
+.bgimg {
+    background-image: url('../techbg.png');
     background-size: 100% 100%;
     background-attachment: fixed;
     width: 100%;
     height: 750px;
 }
-.headerset{
+
+.headerset {
     padding-top: 250px;
     box-sizing: border-box;
     color: aliceblue;
 }
-.headerset h2{
+
+.headerset h2 {
     font-style: normal;
     font-size: 42px;
     color: aliceblue;
-
 }
-.headerset h1{
+
+.headerset h1 {
     font-size: 82px;
     font-weight: bold;
-
 }
 
-.ourabout{
-    
-   
+.ourabout {
     width: 100%;
     height: 550px;
-   padding-top: 50px;
-   padding-bottom: 50px;
- 
-   
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.ourabout h1{
+.ourabout h1 {
     font-size: 50px;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
-.ourabout p{
+
+.ourabout p {
     padding: 10px;
     color: rgb(0, 0, 0);
 }
 
-.ourservices{
-    
+.ourservices {
     height: 500px;
 }
-.ourservices h1{
+
+.ourservices h1 {
     font-size: 50px;
     font-weight: bold;
 }
-     
 
-.rowsetting{
+.rowsetting {
     margin: 80px 0px important;
 }
 
-.imagesetting{
+.imagesetting {
     border-radius: 50px;
     height: 100px;
     width: 100px;
     color: #C3CDE1;
-   
-    
 }
-.bg1{
+
+.bg1 {
     color: #C3CDE1;
 }
-.fa-graduation-cap{
+
+.fa-graduation-cap {
     margin-top: 30px;
-   
 }
-.fa-laptop{
+
+.fa-laptop {
     margin-top: 25px;
 }
-.fa-users{
+
+.fa-users {
     margin-top: 30px;
     margin-right: 5px;
 }
-.rowsetting p{
-padding: 10px;
-color: azure!important;
 
+.rowsetting p {
+    padding: 10px;
+    color: azure!important;
 }
-.rowsetting h2{
+
+.rowsetting h2 {
     margin-top: 40px;
     font-weight: bold;
     font-size: 30px;
 }
+
+
 /* our team!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-
-.ourteam h1{
-   font-size: 50px;
-   font-weight: bold; 
+.ourteam h1 {
+    font-size: 50px;
+    font-weight: bold;
 }
-.teamsetting{
+
+.teamsetting {
     margin-top: 200px!important;
     margin-bottom: 200px!important;
 }
@@ -105,42 +105,30 @@ color: azure!important;
 
 /*????????????RESPONSIVE??????????????*/
 
-@media(min-width: 992px){
+@media(min-width: 992px) {}
 
-}
-@media(min-width: 768px) and (max-width:991px){
+@media(min-width: 768px) and (max-width:991px) {}
 
-}
+@media(min-width: 575px) and (max-width:767px) {}
 
-@media(min-width: 575px) and (max-width:767px){
+@media(min-width: 480px) and (max-width:574px) {}
 
-}
-
-@media(min-width: 480px) and (max-width:574px){
-
-}
-
-@media(max-width: 459px){
-    .headerset h2{
+@media(max-width: 459px) {
+    .headerset h2 {
         font-style: normal;
         font-size: 22px;
-    
     }
-    .headerset h1{
+    .headerset h1 {
         font-size: 42px;
         font-weight: bold;
-    
     }
-
-    .ourservices{
+    .ourservices {
         padding: 100px 0px 60px;
         height: 1200px;
     }
-
-    .ourteam{
+    .ourteam {
         height: 5000px;
         padding: 2000px;
         width: 100px;
     }
-
 }
